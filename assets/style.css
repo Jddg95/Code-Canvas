@@ -3,6 +3,14 @@
     font-family: 'Times New Roman', Times, serif; 
 }
 
+html,
+body {
+    background-image: url(#);
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex; /* creates the ability for emelments to be 
     more flexible within the header */
@@ -27,6 +35,9 @@ nav li {
 
 nav a {
     text-decoration: none; /* removes undelines from list items */
-    font-size: x-large;
+    font-size: x-large; /* sets font size to x-large */
 }
 
+.container {
+    display: flex;
+}
