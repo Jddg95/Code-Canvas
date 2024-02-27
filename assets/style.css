@@ -22,12 +22,11 @@ nav ul {
 }
 
 nav li {
-    margin-right: 20px; /* creates space between list items */
+    margin-right: 40px; /* creates space between list items */
 }
 
 nav a {
     text-decoration: none; /* removes undelines from list items */
+    font-size: x-large;
 }
 
-
-    
