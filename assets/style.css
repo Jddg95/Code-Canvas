@@ -1,18 +1,33 @@
 * {
+    margin: 0;
     font-family: 'Times New Roman', Times, serif; 
 }
 
 header {
-    display: flex;
+    display: flex; /* creates the ability for emelments to be 
+    more flexible within the header */
+    justify-content: space-between; /* adds space between h1 and links*/
+    align-items: center; /* centered all itens in header down the y axis */
+    padding: 50px; /* created space inside the header box and made it bigger */
 }
 
-nav {
-    margin: auto;
-    display: flex;
-    ;
+h1 {
+    color: #2C3C8E;
 }
 
+nav ul {
+    list-style: none; /* removes bullet points from list items */
+    display: flex; /* allows list items to sit on x axis next to each other rather
+    than stacked on top of each other */
+}
 
+nav li {
+    margin-right: 20px; /* creates space between list items */
+}
+
+nav a {
+    text-decoration: none; /* removes undelines from list items */
+}
 
 
     
