@@ -1,14 +1,9 @@
-* {
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif; 
-}
-
-html,
 body {
-    background-image: url(#);
+    margin-left: 10%;
+    margin-right: 10%;
     background-size: 100%;
-    margin: 0;
-    padding: 0;
+    background-image: url(/assets/images/v627-aew-20-technologybackground.jpg);
+    background-attachment: fixed; /* makes background image not move */
 }
 
 header {
@@ -16,7 +11,8 @@ header {
     more flexible within the header */
     justify-content: space-between; /* adds space between h1 and links*/
     align-items: center; /* centered all itens in header down the y axis */
-    padding: 50px; /* created space inside the header box and made it bigger */
+    padding: 30px; /* created space inside the header box and made it bigger */
+    background-color: black;
 }
 
 h1 {
@@ -38,6 +34,48 @@ nav a {
     font-size: x-large; /* sets font size to x-large */
 }
 
-.container {
+.trasnparent-box {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+img {
+    border-radius: 50%; /* gives img circular shape */
+    height: 200px;
+    width: 200px;
+}
+
+.name {
+    color: white;
+    font-size: 36px;
+
+}
+
+.container {
+ display: inline-flex;
+ flex-wrap: wrap;
+ background-color: #edf3f0;
+ padding: 5%;
+ 
+}
+
+section h2 {
+    text-align: end;
+    margin-right: 5px;
+}
+
+.page-section {
+    border-right: 3px solid green;
+    width: 10%;
+    height: 200px;
+    margin: 10px;
+    
+}
+
+.text {
+    border: 3px solid purple;
+    width: 80%;
+    margin: 10px;
+}
+
